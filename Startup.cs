@@ -1,4 +1,6 @@
 using System;
+using E_Library.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,6 +26,9 @@ namespace E_Library
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<E_LibraryContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("E_LibraryContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
