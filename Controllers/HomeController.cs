@@ -23,6 +23,24 @@ namespace E_Library.Controllers
             return View();
         }
 
+        public IActionResult AdminDashboard()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AdminDashboard(UserLoginModel objUserLogin)
+        {
+            if (objUserLogin.UserName == "remus" && objUserLogin.Password == "remus123")
+                return RedirectToAction("Index", "Members");
+            else
+            {
+                objUserLogin.Message = "Invalid UserName/Password";
+                return View(objUserLogin);
+            }
+
+        }
+
         public IActionResult About()
         {
             return View();
