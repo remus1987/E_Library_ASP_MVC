@@ -12,5 +12,25 @@ namespace E_Library.Controllers
         {
             return View();
         }
+
+        public IActionResult Adventure()
+        {
+            return View();
+        }
+
+        public IActionResult Biography()
+        {
+            return View();
+        }
+
+        public IActionResult Fiction()
+        {
+            return View();
+        }
+
+        public IActionResult Mistery()
+        {
+            return View();
+        }
     }
 }

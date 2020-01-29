@@ -160,3 +160,7 @@ C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Memb
 C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Members\Edit.cshtml.g.cs
 C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Members\Index.cshtml.g.cs
 C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\AdminDashboard.cshtml.g.cs
+C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Upcoming_Books\Adventure.cshtml.g.cs
+C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Upcoming_Books\Biography.cshtml.g.cs
+C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Upcoming_Books\Fiction.cshtml.g.cs
+C:\Users\tru55\Desktop\GitHub\E_Library\obj\Debug\netcoreapp3.1\Razor\Views\Upcoming_Books\Mistery.cshtml.g.cs
