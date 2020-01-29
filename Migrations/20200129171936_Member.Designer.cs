@@ -4,14 +4,16 @@ using E_Library.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace E_Library.Migrations
 {
     [DbContext(typeof(E_LibraryContext))]
-    partial class E_LibraryContextModelSnapshot : ModelSnapshot
+    [Migration("20200129171936_Member")]
+    partial class Member
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
