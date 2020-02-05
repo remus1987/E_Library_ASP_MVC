@@ -4,8 +4,6 @@
     ViewData["Title"] = "AdminDashboard";
 }
 
-<h1>AdminDashboard</h1>
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -19,7 +17,7 @@
     }
 
     <fieldset>
-        <legend>UserLogin</legend>
+        <legend>Administrator Login</legend>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.UserName)
@@ -42,3 +40,33 @@
         </p>
     </fieldset>
 }
+
+<style>
+    fieldset {
+		text-align:center;       
+	}	
+	
+	legend {
+			font-weight:bold; 
+			width: 35%; 
+			padding: 5px 5px 5px 10px; 
+	}
+
+    input[type=submit] {
+        background-color: dodgerblue;
+        border: none;
+        color: white;
+        padding: 6px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 8px 2px;
+         opacity: 0.6;
+        transition: 0.3s;
+         display: inline-block;
+        text-decoration: none;
+         cursor: pointer;
+        border-radius: 4px;
+    }
+
+    input[type=submit]:hover {opacity: 1}
+</style>
