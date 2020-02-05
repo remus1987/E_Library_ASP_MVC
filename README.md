@@ -21,3 +21,19 @@ User Documentation:
     - The next elements from the navigation bar are the Contact and another dropdown list Upcoming, that consist on several sub elements, and each of them will redirect user to view upcoming books, based on book genre.
     - The last element is the Admin Dashboard, where the Admin can manage the members of the system, once he authenticate .
 
+----------------------------------------------------------------------------------------------------------------------------------------
+HOME View: 
+
+![](wwwroot/Images/Home_View.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+BOOKS View: 
+
+![](wwwroot/Images/Books_View.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+LOGIN View: 
+
+![](wwwroot/Images/Admin_Dashboard_View.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------
